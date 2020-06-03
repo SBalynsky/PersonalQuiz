@@ -21,11 +21,11 @@ class ResultsViewController: UIViewController {
     @IBOutlet weak var typAnimalLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
     
-    // MARK: - Private properties
-    var dogCaunt = 0
-    var catCaunt = 0
-    var rabbitCaunt = 0
-    var turtleCaunt = 0
+    // MARK: -  Properties
+    private var dogCaunt = 0
+    private var catCaunt = 0
+    private var rabbitCaunt = 0
+    private var turtleCaunt = 0
     var answersChoosenResults: [Answer] = []
     
     
